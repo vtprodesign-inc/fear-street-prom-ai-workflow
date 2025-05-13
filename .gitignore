@@ -52,3 +52,7 @@ Backup/
 CrashAutoSave*.toe
 venv/
 TDLogs/
+
+capture/*.png
+capture/*.jpg
+capture/*.tif
