@@ -1,0 +1,13 @@
+{
+    "uuid": "c84a1b7c2b754b8b9375141e80858187",
+    "name": "run_detect_faces_script",
+    "path": "blood_overlay",
+    "order": 0,
+    "comment": "",
+    "parameters": {},
+    "subscriptions": [
+        "comfyui_completed"
+    ],
+    "errors": [],
+    "log": []
+}
