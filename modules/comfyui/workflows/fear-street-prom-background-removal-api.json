@@ -1,0 +1,98 @@
+{
+  "1": {
+    "inputs": {
+      "image": [
+        "3",
+        0
+      ]
+    },
+    "class_type": "AILab_ImagePreview",
+    "_meta": {
+      "title": "Image Preview (RMBG) 🖼️"
+    }
+  },
+  "2": {
+    "inputs": {
+      "mask": [
+        "3",
+        1
+      ]
+    },
+    "class_type": "AILab_MaskPreview",
+    "_meta": {
+      "title": "Mask Preview (RMBG) 🎭"
+    }
+  },
+  "3": {
+    "inputs": {
+      "model": "RMBG-2.0",
+      "sensitivity": 1,
+      "process_res": 1024,
+      "mask_blur": 0,
+      "mask_offset": 0,
+      "background": "Alpha",
+      "invert_output": false,
+      "optimize": "default",
+      "refine_foreground": true,
+      "image": [
+        "6",
+        0
+      ]
+    },
+    "class_type": "RMBG",
+    "_meta": {
+      "title": "Remove Background (RMBG)"
+    }
+  },
+  "4": {
+    "inputs": {
+      "image": [
+        "3",
+        0
+      ],
+      "mask": [
+        "3",
+        1
+      ]
+    },
+    "class_type": "AILab_Preview",
+    "_meta": {
+      "title": "Preview (RMBG) 🖼️🎭"
+    }
+  },
+  "5": {
+    "inputs": {
+      "image": "IMG_4536.jpg",
+      "mask_channel": "alpha",
+      "scale_by": 1.0000000000000002,
+      "resize_mode": "height",
+      "size": 1080
+    },
+    "class_type": "AILab_LoadImage",
+    "_meta": {
+      "title": "Load Image (RMBG) 🖼️"
+    }
+  },
+  "6": {
+    "inputs": {
+      "image": ""
+    },
+    "class_type": "ETN_LoadImageBase64",
+    "_meta": {
+      "title": "Load Image (Base64)"
+    }
+  },
+  "7": {
+    "inputs": {
+      "format": "PNG",
+      "images": [
+        "3",
+        2
+      ]
+    },
+    "class_type": "ETN_SendImageWebSocket",
+    "_meta": {
+      "title": "Send Image (WebSocket)"
+    }
+  }
+}
