@@ -3,5 +3,5 @@ def onInit(info, mc, macro):
 	return
 
 def onTrigger(info, mc, macro, comps, args):
-	comps.op('GPhoto2').CapturePhoto()
+	comps.op('switch_blackout').par.switch = 0
 	return

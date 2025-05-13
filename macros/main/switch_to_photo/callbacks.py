@@ -3,5 +3,4 @@ def onInit(info, mc, macro):
 	return
 
 def onTrigger(info, mc, macro, comps, args):
-	comps.op('GPhoto2').CapturePhoto()
 	return

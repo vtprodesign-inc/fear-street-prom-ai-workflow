@@ -2,7 +2,7 @@
     "uuid": "536047dca0c24730964e5333e63ff12c",
     "name": "captureImage",
     "path": "gphoto2",
-    "order": 0,
+    "order": 1,
     "comment": "",
     "parameters": {},
     "subscriptions": [],

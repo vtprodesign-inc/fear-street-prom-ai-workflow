@@ -3,5 +3,5 @@ def onInit(info, mc, macro):
 	return
 
 def onTrigger(info, mc, macro, comps, args):
-	comps.op('moviefileout1').par.addframe.pulse()
+	comps.op('GPhoto2').CapturePhoto()
 	return

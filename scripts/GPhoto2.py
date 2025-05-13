@@ -67,14 +67,17 @@ class GPhoto2(CallbacksExt):
     
     def LoadPhoto(self, path):
         movieFileOp = self.ownerComp.op('moviefilein1')
-        movieFileOp.par.file = f"capture/{path}.jpg"
+        movieFileOp.par.file = path
         movieFileOp.par.reloadpulse.pulse()
 
         op.MC.Emit('photo_loaded')
 
     def _handleFolderOnFound(self, info, row):
+        print(row, info.baseName, self.CurrentPhotoUUID, str(info.baseName) == str(self.CurrentPhotoUUID))
         baseName = info.baseName
         path = info.path
-        if baseName == self.CurrentPhotoUUID:
+
+        if str(baseName) == str(self.CurrentPhotoUUID):
+            print('found photo')
             self.LoadPhoto(path)
     
