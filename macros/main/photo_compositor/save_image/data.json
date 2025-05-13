@@ -1,0 +1,11 @@
+{
+    "uuid": "b20d6b8033b944d68c46a3e77c702a39",
+    "name": "save_image",
+    "path": "photo_compositor",
+    "order": 0,
+    "comment": "",
+    "parameters": {},
+    "subscriptions": [],
+    "errors": [],
+    "log": []
+}

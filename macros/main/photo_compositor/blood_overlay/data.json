@@ -1,0 +1,11 @@
+{
+    "uuid": "1d1d76c04f254923a71485ab6223fdf3",
+    "name": "blood_overlay",
+    "path": "photo_compositor",
+    "order": 0,
+    "comment": "",
+    "parameters": {},
+    "subscriptions": [],
+    "errors": [],
+    "log": []
+}

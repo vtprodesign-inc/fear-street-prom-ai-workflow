@@ -1,0 +1,11 @@
+{
+    "uuid": "e321672276b94e7a86b8dbd13df21f75",
+    "name": "loadImage",
+    "path": "gphoto2",
+    "order": 0,
+    "comment": "",
+    "parameters": {},
+    "subscriptions": [],
+    "errors": [],
+    "log": []
+}

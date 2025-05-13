@@ -1,0 +1,18 @@
+{
+    "uuid": "29453e6bacb24824aaf56ad757654416",
+    "name": "run_comfy_ui",
+    "path": "photo_compositor",
+    "order": 0,
+    "comment": "",
+    "parameters": {},
+    "subscriptions": [
+        "photo_loaded"
+    ],
+    "errors": [],
+    "log": [
+        "2025-05-13 11:28:16 | Type: trigger | Args: None | Caller: /components/Macrocosm/Macrocosm:text | Delay: 0(ms) 0(f)",
+        "2025-05-13 11:27:54 | Type: trigger | Args: None | Caller: /components/Macrocosm/Macrocosm:text | Delay: 0(ms) 0(f)",
+        "2025-05-13 09:49:43 | Type: trigger | Args: None | Caller: /components/Macrocosm/Macrocosm:text | Delay: 0(ms) 0(f)",
+        "2025-05-13 09:49:15 | Type: trigger | Args: None | Caller: /components/Macrocosm/Macrocosm:text | Delay: 0(ms) 0(f)"
+    ]
+}
